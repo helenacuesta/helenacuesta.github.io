@@ -9,7 +9,8 @@
 <head>
   <title>Helena Cuesta</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -34,9 +35,11 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
 				  <li><a href="index.html">Home</a></li>
+          <li><a href="#news">News</a></li>
 				  <li><a href="#research">Research</a></li>
 				  <li><a href="#teaching">Teaching</a></li> 
-				  <li><a href="#">CV</a></li> 
+				  <li><a href="./MultipleF0EstimationVocalEnsembles/Multiple F0 Estimation in Vocal Ensembles using CNNs - Audio Examples.html">Demos</a></li>
+
 		  </ul>
 		</div>
 	  </div>
@@ -44,30 +47,30 @@
   
   <!-- Page Content -->
     <div class="container">
-
         <div class="row">
 
             <!-- Entries Column -->
-            <div class="col-md-8" style="height: 100vh;">
+            <div class="col-md-8">
                 
-                <!-- Main Image -->
-                <img class="img-responsive" src="./img/header.jpg" alt=""><br>
+              <!-- Main Image -->
+              <img class="img-responsive" src="./img/header.jpg" alt=""><br>
                 
-                <div style="margin-top:3%; text-align:justify;">   
+              <div style="margin-top:3%; font-family:'Helvetica'; text-align: justify;">
+                <h2 id="about">About Me</h2>  
                 <h3>Site under construction...</h3>             
-					<p>I am an engineer and half-musician based in Barcelona, with special interest in audio and music processing and analysis, music information retrieval (MIR), and machine learning.</p>
+					       <p>I am an engineer and half-musician based in Barcelona, with special interest in audio and music processing and analysis, music information retrieval (MIR), and machine learning.</p>
 
-<p>I hold a Bachelor's degree in Audiovisual Systems Engineering from Universitat Pompeu Fabra (2011-2015), a Specialist Diploma on Data Mining and Analysis from Universitat Oberta de Catalunya (2016), and a Master's degree in Sound and Music Computing from Universitat Pompeu Fabra (2016-2017).</p>
+                  <p>I hold a Bachelor's degree in Audiovisual Systems Engineering from Universitat Pompeu Fabra (2011-2015), a Specialist Diploma on Data Mining and Analysis from Universitat Oberta de Catalunya (2016), and a Master's degree in Sound and Music Computing from Universitat Pompeu Fabra (2016-2017).</p>
 
-<p>I am currently (2017-) a PhD student at the Music Information Research Lab from the Music Technology Group in Universitat Pompeu Fabra, working on the computational analysis of (polyphonic) singing voice under the supervision of Dr. Emilia Gómez. Our main focus is the pitch analysis of vocal music: multiple F0 estimation and intonation analysis.</p>
-                </div>
+                <p>I am currently (2017-) a PhD student at the Music Information Research Lab from the Music Technology Group in Universitat Pompeu Fabra, working on the computational analysis of (polyphonic) singing voice under the supervision of Dr. Emilia Gómez. Our main focus is the pitch analysis of vocal music: multiple F0 estimation and intonation analysis.</p>
+              </div>
             </div> 
 
             <!-- Contact Info on the Sidebar -->
             <div class="col-md-4">
-                <div style="font-family: 'Roboto', sans-serif; font-size: 32px;"><b>Helena Cuesta</b></div><br>
+                <div style="font-family: 'Helvetica'; sans-serif; font-size: 32px;"><b>Helena Cuesta</b></div><br>
                 <p><b>PhD candidate</b></p>
-                <p><b>helena.cuesta@upf.edu</b><br>
+                <p><b>helena.cuesta@upf.edu</b><br></p>
                 <p>Music Technology Group<br>
                 Universitat Pompeu Fabra<br>
                 55.318, Edifici Tànger <br>
@@ -76,43 +79,63 @@
                 Spain<br>
                 </p>
             </div>
-            
-            
+
             <!-- Links on the Sidebar -->
             <div class="col-md-4" style="margin-top:2%">
               <dd><a href="https://scholar.google.com/citations?user=2NLqhnEAAAAJ&hl=ca">Google Scholar</a></dd> 
               <dd><a href="#">Twitter</a></dd>
               <dd><a href="#">LinkedIn</a></dd>
             </div>
-            
-            
-            <!-- Publications -->
-            <div class="col-md-8" style="height: 100vh;">    
-                <h2 id="research">Research</h2>
+
+            <!-- News section -->
+            <div class="col-md-8">
+              <div style="margin-top:3%; font-family:'Helvetica'; text-align: justify;">
+                  <h2 id="news">News</h2>
+                  <ul>
+                    <li>Papers accepted at ISMIR 2020!</li>
+                    <li>New academic year, hybrid teaching.</li>
+                    <li>blablabla...</li>
+                    
+                  </ul>
+              </div>
+            </div>
+            <!-- Research -->
+            <div class="col-md-8">
+              <div style="margin-top:3%; font-family:'Helvetica'; text-align: justify;">
+                  <h2 id="research">Research</h2>
+                  
                   <p>My main research interest is currently the automatic analysis of pitch content in polyphonic singing audio recordings, i.e., vocal ensembles and choirs. </p>
 
-                  In our work we try to answer the following research questions:
-                  <ul>
-                  <li>Can we extract the frequencies sung by all singers of an ensemble?</li>
-                  <li>How can we model unison performances, where the melodic and linguistic content is shared among several singers?</li>
-                  <li>Do singers of an ensemble interact with each other while performing?</li>
-                  <li>Is it possible to assess the performance of a singer of an ensemble using intonation descriptors?</li>
-                </ul>
+                  <p>In our work we try to answer the following research questions:</p>
+                  
+                  <div class="list">
+                    <ul>
+                      <li>Can we extract the frequencies sung by all singers of an ensemble?</li>
+                      <li>How can we model unison performances, where the melodic and linguistic content is shared among several singers?</li>
+                      <li>Do singers of an ensemble interact with each other while performing?</li>
+                      <li>Is it possible to assess the performance of a singer of an ensemble using intonation descriptors?</li>
+                    </ul>
+                  </div>
 
-<p>To answer these questions, we use signal processing and machine learning techniques for (multiple) F0 estimation, unison singing analysis and synthesis, singing performance assessment, and measuring interdependence between singers’ performances. </p>
+                <p>To answer these questions, we use signal processing and machine learning techniques for (multiple) F0 estimation, unison singing analysis and synthesis, singing performance assessment, and measuring interdependence between singers’ performances. </p>
 
-<p>As part of the PhD thesis, we worked on two publicly-available datasets of polyphonic singing voice: the Choral Singing Dataset and the Dagstuhl ChoirSet. See the Datasets & Software section for more details!</p>
+                <p>As part of the PhD thesis, we worked on two publicly-available datasets of polyphonic singing voice: the Choral Singing Dataset and the Dagstuhl ChoirSet. See the Datasets & Software section for more details!</p>
 
-<p>This PhD thesis is partially developed in the scope of the <a href="https://trompamusic.eu/">TROMPA</a> (Towards Richer Online Music Public-domain Archives) project, funded by the EU’s H2020 program. </p>
-
-                </p>
-    
-
+                <p>This PhD thesis is partially developed in the scope of the <a href="https://trompamusic.eu/">TROMPA</a> (Towards Richer Online Music Public-domain Archives) project, funded by the EU’s H2020 program. </p>
+            </div>
+          </div>
+            
+            <!-- Teaching -->
+            <div class="col-md-8">
+              <div style="margin-top:3%; font-family:'Helvetica'; text-align: justify;">
+                  <h2 id="teaching">Teaching</h2>
+                  <p>Info about teaching activities</p>
+              </div>
             </div>
 
-            
-        </div>
+            <div href=""
 
+        </div>
 
     </div>
     <!-- /.container -->

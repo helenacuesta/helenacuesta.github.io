@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Multiple F0 Estimation in Vocal Ensembles using Convolutional Neural Networks</title>
+        <!-- <link rel="stylesheet" type="text/css" href="../../css/blog-web.css" media="all"> -->
+        <!-- <head> -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/academicons.css">
+    <style type="text/css">
+    audio { width: 200px; }
+    html {
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+    font-family: Arial, Helvetica;
+}
+    </style>
+    <!-- </head> -->
+    </head>
+    <body>
+    <center>
+    <div id="blog-wrapper">
+      <div id="blog-content">
+          <h1>Examples and demos</h1>
+          <h2>Multiple F0 Estimation in Vocal Ensembles using Convolutional Neural Networks</h2>
+          <h3>Helena Cuesta (MTG-UPF), Brian McFee (MARL/CDS-NYU), Emilia Gómez (JRC-EC and MTG-UPF)</h3>
+          <h3>ISMIR 2020 paper</h3>
+    </div></div></center>
+
+
+
+
+  <h2>Audio Examples</h2>
+<!--   <p> These are examples from the NUS-48E [1] dataset, on which the system was trained and evaluated</p> -->
+
+  <table>
+  <tbody><tr>
+
+    <td style="padding-bottom: 40px;" width="300px"></td>
+    <td width="150px"><b>Original excerpt</b></td>
+    <td width="150px"><b>Synthetic output</b></td>
+
+  </tr>
+  <tr>
+    <td><b>Example from the Barbershop Quartets dataset</b></td>
+    <td>
+  <audio controls="controls" preload="none">
+  <source src="files/orig/2_21_BQ044_16_satb.wav" type="audio/wav">
+  Your browser does not support the audio element.
+  </audio>
+    </td>
+    <td>
+  <audio controls="controls" preload="none">
+  <source src="files/synth/2_21_BQ044_16_satb_sonif.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+    </td>
+
+  </tbody>
+  </table>
+  
+  <table>
+
+  <tbody><tr>
+    <td width="300px"><b>Example from the Bach Chorales dataset</b></td>
+    <td>
+  <audio controls="controls" preload="none">
+  <source src="files/orig/2_26_BC060_3_satb.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+    </td>
+
+    <td>
+  <audio controls="controls" preload="none">
+  <source src="files/synth/2_26_BC060_3_satb_sonif.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="300px"><b>Example from the Choral Singing Dataset</b></td>
+    <td>
+  <audio controls="controls" preload="none">
+  <source src="files/orig/2_CSD_ER_4_4_4_1.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+    </td>
+
+     <td>
+  <audio controls="controls" preload="none">
+  <source src="files/synth/2_CSD_ER_4_4_4_1_sonif.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+    </td>
+
+  </tr>
+
+  <tr>
+    <td width="300px"><b>Example from the Dagstuhl ChoirSet</b></td>
+    <td>
+  <audio controls="controls" preload="none">
+  <source src="files/orig/2_DCS_LI_FullChoir_Take01_1_2_2_2.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+    </td>
+
+    <td>
+  <audio controls="controls" preload="none">
+  <source src="files/synth/2_DCS_LI_FullChoir_Take01_1_2_2_2_sonif.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+    </td>
+
+  </tr>
+
+  <tr>
+    <td width="300px"><b>Example from the ESMUC Recordings</b></td>
+    <td>
+  <audio controls="controls" preload="none">
+  <source src="files/orig/2_SC2_take3_mixed_1_2_2_2.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+    </td>
+
+    <td>
+  <audio controls="controls" preload="none">
+  <source src="files/synth/2_SC2_take3_mixed_1_2_2_2_sonif.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+    </td>
+
+  </tr>
+
+</tbody></table>
+
+
+<h2>Video demos</h2>
+<p>
+<b>Example from unseen audio file [1]</b></p>
+ <video width="500" height="300" controls>
+  <source src="files/video/0_Demo_MultiF0_LateDeep.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+<p><b>Example from unseen audio file [2]</b></p>
+ <video width="500" height="300" controls>
+  <source src="files/video/1_Demo_MultiF0_LateDeep.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+
+
+
+
+<h3>Affiliations</h3>
+<p>
+<b>MTG-UPF</b>: Music Technology Group, Universitat Pompeu Fabra, Barcelona
+</p>
+<p>
+<b>MARL/CDS-NYU</b>: Music and Audio Research Lab and Center for Data Science, New York University, New York
+</p>
+<p>
+<b>JRC-EU</b>: Joint Research Centre, European Commission, Sevilla</h3>
+</p>
+
+<p>[1] <a href="https://www.youtube.com/watch?v=RNNQh9wtisc">Link to original audio</a> </p>
+<p>[2] <a href="https://www.youtube.com/watch?v=T02Yrq0a5Hk">Link to original audio</a> </p>
+      
+      
+      <div id="blog-bg-footer">
+        <div id="blog-footer">
+          <p>
+            Last updated:&nbsp;
+            <script language="JavaScript">
+            document.write(String(document.lastModified))</script>
+          </p>
+        </div>
+      </div> 
+
+
+</body></html>
