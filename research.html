@@ -38,26 +38,26 @@
           <li><a href="./news.html">News</a></li>
           <li><a href="./research.html">Research</a></li>
           <li><a href="./teaching.html">Teaching</a></li>
-          <li><a href="./publications.html">Publications</a></li> 
+          <li><a href="./publications.html">Publications</a></li>
           <li><a href="./demos.html">Demos</a></li>
 
       </ul>
     </div>
     </div>
   </nav>
-  
+
   <!-- Page Content -->
     <div class="container">
         <div class="row">
 
             <!-- Entries Column -->
             <div class="col-md-8">
-                
-              <!-- Main Image -->
-              <img class="img-responsive" src="./img/header.jpg" alt=""><br> 
-              <a style="color:#b5bec9;font-size:0.8em; float:right;" href="http://annamas.net/">Header photo: Anna Mas</a>            
 
-            </div> 
+              <!-- Main Image -->
+              <img class="img-responsive" src="./img/header.jpg" alt=""><br>
+              <a style="color:#b5bec9;font-size:0.8em; float:right;" href="http://annamas.net/">Header photo: Anna Mas</a>
+
+            </div>
 
             <!-- Contact Info on the Sidebar -->
             <div class="col-md-4">
@@ -75,21 +75,21 @@
 
             <!-- Links on the Sidebar -->
             <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="https://scholar.google.com/citations?user=2NLqhnEAAAAJ&hl=ca">Google Scholar</a></dd> 
-              <dd><a href="https://github.com/helenacuesta/">GitHub</a></dd> 
+              <dd><a href="https://scholar.google.com/citations?user=2NLqhnEAAAAJ&hl=ca">Google Scholar</a></dd>
+              <dd><a href="https://github.com/helenacuesta/">GitHub</a></dd>
               <dd><a href="https://twitter.com/HelenaCuesta_">Twitter</a></dd>
               <dd><a href="https://www.linkedin.com/in/hcuesta/">LinkedIn</a></dd>
-            </div> 
+            </div>
 
             <!-- Research -->
             <div class="col-md-8">
               <div style="margin-top:3%; font-family:'Helvetica'; text-align: justify;">
                   <h1 id="research">Research</h1>
-                  
+
                   <p>My main research interest is currently the automatic analysis of pitch content in polyphonic singing audio recordings, i.e., vocal ensembles and choirs. </p>
 
                   <p>In our work we try to answer the following research questions:</p>
-                  
+
                   <div class="list">
                     <ul>
                       <li>Can we extract the frequencies sung by all singers of an ensemble?</li>
@@ -106,7 +106,75 @@
                 <p>This PhD thesis is partially developed in the scope of the <a href="https://trompamusic.eu/">TROMPA</a> (Towards Richer Online Music Public-domain Archives) project, funded by the EU’s H2020 program. </p>
             </div>
           </div>
-            
+
+          <!-- Datasets and software -->
+          <div class="col-md-8">
+            <div style="margin-top:3%; font-family:'Helvetica'; text-align: justify;">
+                <h2 id="datasets">Dataset and Software</h2>
+
+                <h4><a href="https://doi.org/10.5281/zenodo.1286485">Choral Singing Dataset (CSD)</a></h4>
+                <p>
+                  Multi-track dataset of choral music, recorded in collaboration with the Cor Anton Bruckner from Barcelona.
+                  16 singers (4 sopranos, 4 altos, 4 tenors, 4 basses) recorded with individual microphones singing together.
+                  Each section was recorded separately, but in sync with the others thanks to a reference backing track and a
+                  video recording of the conductor of the choir.
+                </p>
+                <p>
+                This dataset contains F0 annotations (automatically extracted and manually corrected) for
+                individual microphone, note annotations, and sync MIDI
+              </p>
+              <p>
+                This dataset was released together with the following paper:
+              </p>
+              <p>
+                Helena Cuesta, Emilia Gómez, Agustín Martorell and Felipe Loáiciga.
+                <b>“Analysis of Intonation in Unison Choir Singing”</b>.
+                In <i>Proceedings of the 15th International Conference on Music Perception and Cognition
+                  / 10th Triennial Conference of the European Society for the Cognitive Sciences of Music.
+                </i>
+                Graz (Austria), July, 2018.
+              </p>
+
+              <h4><a href="https://doi.org/10.5281/zenodo.3897181">Dagstuhl ChoirSet (DCS)</a></h4>
+              <p>
+                Multi-track dataset of choral music, recorded during a
+                <a href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=19052">Dagstuhl Seminar</a>
+                on “Computational Methods for Melody and Voice Processing in Music Recordings”.
+                This dataset is a joint project with the International Audio Laboratories Erlangen (AudioLabs), Germany.
+              </p>
+              <p>
+                Following a similar configuration to the CSD, the Dagsthul ChoirSet consists of recordings of
+                a choir of 13 singers, captured using a different microphones: larynx, headset and dynamic
+                microphones for individual singers, and a stereo pair to capture the full choir.
+              </p>
+              <p>
+                This dataset contains F0 annotations (automatically extracted using two different methods)
+                for each individual microphone, beat annotations, and sync score representations.
+              </p>
+              <p>
+                The dataset was released together with the following paper:
+              </p>
+              <p>
+                Sebastian Rosenzweig, Helena Cuesta, Christof Weiß, Frank Scherbaum, Emilia Gómez, and Meinard Müller.
+                <b>“Dagstuhl ChoirSet: A Multitrack Dataset for MIR Research on Choral Singing.”</b>
+                In Transactions of the International Society for Music Information Retrieval, <i>3(1)</i>,
+                pp. 98–110, 2020.
+              </p>
+
+              <h3>Software</h3>
+              <p>Python repository for multiple F0 estimation in vocal ensembles:
+              <a href="https://github.com/helenacuesta/multif0-estimation-polyvocals">
+                https://github.com/helenacuesta/multif0-estimation-polyvocals</a></p>
+
+              <p>DCS ToolBox: Python toolbox for the Dagstuhl ChoirSet:
+              <a href=" https://github.com/helenacuesta/DCStoolbox">
+               https://github.com/helenacuesta/DCStoolbox</a></p>
+
+
+
+
+
+
 
 
     </div>
@@ -115,7 +183,7 @@
     <!-- Other people may like it too! -->
     <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>
 
-    
+
 </body>
 
 </html>
